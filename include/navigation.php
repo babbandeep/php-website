@@ -1,12 +1,3 @@
-<div class="green-background-top">
-	<div class="container">
-		<div class="desk-right">
-			<div class="headphone-icon"><img src="images/headphone-icon.png"></div>
-			<div class="phone-number">9876954321</div>
-			<div class="book-button"><a href="booking.php" class="white-button"> Book Now</a></div>
-		</div>
-	</div>
-</div>
 <header class="navbar navbar-default" role="banner">
 	<div class="container">
 		<div class="row">

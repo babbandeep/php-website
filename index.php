@@ -43,77 +43,14 @@ $title = "title";
 require_once('include/html-header.php');
 ?>
 <body>
-<!--Navigation Bar Starts-->
-<?php require_once('include/navigation.php'); ?>
-<!--Navigation Bar Ends-->
-    
-<div class="clearfix"></div>
-<section class="green-background-slider">
-	<!-- carousel slider starts -->    <!-- Banner -->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							</ol>
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<div class="banner-slider" style="background-image: url('images/slider-1.png')"></div>
-									<div class="slider-caption">
-										<h3>gfhfghjghj</h3>
-										<h4>fdhgfhfghj</h4>
-										<p>ghjgjjgflkfgjlgtruofdpgortoitjhjtgrfb</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="banner-slider" style="background-image: url('images/slider-2.png')"></div>
-									<div class="slider-caption">
-										<h3>gfhfghjghj</h3>
-										<h4>fdhgfhfghj</h4>
-										<p>ghjgjjgflkfgjlgtruofdpgortoitjhjtgrfb</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="banner-slider" style="background-image: url('images/slider-3.png')"></div>
-									<div class="slider-caption">
-										<h3>gfhfghjghj</h3>
-										<h4>fdhgfhfghj</h4>
-										<p>ghjgjjgflkfgjlgtruofdpgortoitjhjtgrfb</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Controls -->
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="glyphicon icon-prev" aria-hidden="true"><i class="fa fa-caret-left"></i></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="glyphicon icon-next" aria-hidden="true"><i class="fa fa-caret-right"></i></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
-		</div>
+    <!--Navigation Bar Starts-->
+    <?php require_once('include/navigation.php'); ?>
+    <!--Navigation Bar Ends-->        
 
-	</div>
-</section>
+<div class="work-block">
+    <?php require_once('include/service-areas.php'); ?>
+</div>
     
-<section>
-
-	<div class="work-block">
-		<?php require_once('include/service-areas.php'); ?>
-	</div>
-    
-</section>
 <!--FOOTER starts-->
 <?php require_once('include/footer.php'); ?>
     
